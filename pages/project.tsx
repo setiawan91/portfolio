@@ -59,7 +59,7 @@ function Project() {
         title: "KEBUNKU",
         img: "/kebunku-thumb.jpg",
         content: "KEBUNKU adalah sebuah B2B platform jual beli sayur dan buah.",
-        url: "https://hstore.oomph.co.id/",
+        url: "https://kebunku.co.id/",
     },
 
   ];

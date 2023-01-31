@@ -16,21 +16,21 @@ function Contact() {
                         <div className=" grid lg:grid-cols-3">
                             <div className=" mt-5 lg-4 ">
                                 <Link target="_blank" href="https://www.linkedin.com/in/adi-setiawan-5a550271/" title="linkedin">
-                                    <FaLinkedin style={{ color: "grey", fontSize:100,}} />
+                                    <FaLinkedin style={{ color: "grey", fontSize:50,}} />
                                     <h1 className="col-span-full">LINKEDIN</h1>
                                 </Link>
                             </div>
                             
                             <div className=" mt-5 lg-4 ">
                                 <Link target="_blank" href="https://github.com/setiawan91" title="github">
-                                    <FaGithub style={{ color: "grey", fontSize:100,}} /> 
+                                    <FaGithub style={{ color: "grey", fontSize:50,}} /> 
                                     <h1 className="col-span-full">GITHUB</h1>
                                 </Link>                        
                             </div>
 
                             <div className=" mt-5 lg-4 ">
                                 <Link target="_blank" href="https://api.whatsapp.com/send?phone=6285770289748" title="github">
-                                    <FaWhatsapp style={{ color: "grey", fontSize:100,}} /> 
+                                    <FaWhatsapp style={{ color: "grey", fontSize:50,}} /> 
                                     <h1 className="col-span-full">WHATSAPP</h1>
                                 </Link>
                             </div>

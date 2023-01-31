@@ -26,11 +26,11 @@ function Experience() {
                     <p className="mb-2 text-lg font-medium text-gray-600">Software Engineer</p>
                     </div>
                     <div className="w-full p-8 ">
-                        <ul style={{ listStyleType: 'circle' }} className='text-sm'>
-                            <li>Develop POS(Point of Sales) application</li>
-                            <li>Frontend using Next JS for developing CMS</li>
-                            <li>Backend using Go for developing API</li>
-                            <li>Handling other projects using Laravel and YII</li>
+                        <ul style={{ listStyleType: 'none' }} className='text-sm'>
+                            <li>{`->`} Develop POS(Point of Sales) application</li>
+                            <li>{`->`} Frontend using Next JS for developing CMS</li>
+                            <li>{`->`} Backend using Go for developing API</li>
+                            <li>{`->`} Handling other projects using Laravel and YII</li>
                         </ul>
                     </div>
                 </div>
@@ -49,11 +49,11 @@ function Experience() {
                     <p className="mb-2 text-lg font-medium text-gray-600">Software Engineer</p>
                     </div>
                     <div className="w-full p-8 ">
-                        <ul style={{ listStyleType: 'circle' }} className='text-sm'>
-                            <li>Develop internal apps</li>
-                            <li>Develop digital content platform for Partners</li>
-                            <li>Manage Apps & Databases</li>
-                            <li>Support and help end user</li>
+                        <ul style={{ listStyleType: 'none' }} className='text-sm'>
+                            <li>{`->`} Develop internal apps</li>
+                            <li>{`->`} Develop digital content platform for Partners</li>
+                            <li>{`->`} Manage Apps & Databases</li>
+                            <li>{`->`} Support and help end user</li>
                         </ul>
                     </div>
                 </div>
@@ -72,11 +72,11 @@ function Experience() {
                     <p className="mb-2 text-lg font-medium text-gray-600">Trainer</p>
                     </div>
                     <div className="w-full p-8 ">
-                        <ul style={{ listStyleType: 'circle' }} className='text-sm'>
-                            <li>Teach Web Design</li>
-                            <li>Teach Web Programming</li>
-                            <li>Teach Wordpress</li>
-                            <li>Teach Laravel & Codeigniter</li>
+                        <ul style={{ listStyleType: 'none' }} className='text-sm'>
+                            <li>{`->`} Teach Web Design</li>
+                            <li>{`->`} Teach Web Programming</li>
+                            <li>{`->`} Teach Wordpress</li>
+                            <li>{`->`} Teach Laravel & Codeigniter</li>
                         </ul>
                     </div>
                 </div>
@@ -95,10 +95,10 @@ function Experience() {
                     <p className="mb-2 text-lg font-medium text-gray-600">PHP Developer</p>
                     </div>
                     <div className="w-full p-8 ">
-                        <ul style={{ listStyleType: 'circle' }} className='text-sm'>
-                            <li>Develop custom ERP system</li>
-                            <li>Maintain apps and server</li>
-                            <li>Support and help end user</li>
+                        <ul style={{ listStyleType: 'none' }} className='text-sm'>
+                            <li>{`->`} Develop custom ERP system</li>
+                            <li>{`->`} Maintain apps and server</li>
+                            <li>{`->`} Support and help end user</li>
                         </ul>
                     </div>
                 </div>
@@ -117,10 +117,10 @@ function Experience() {
                     <p className="mb-2 text-lg font-medium text-gray-600">IT Programmer</p>
                     </div>
                     <div className="w-full p-8 ">
-                        <ul style={{ listStyleType: 'circle' }} className='text-sm'>
-                            <li>Develop preinput subscriber, reporting, payment gateway apps</li>
-                            <li>Maintain apps and server</li>
-                            <li>Support and help end user</li>
+                        <ul style={{ listStyleType: 'none' }} className='text-sm'>
+                            <li>{`->`} Develop preinput subscriber, reporting, payment gateway apps</li>
+                            <li>{`->`} Maintain apps and server</li>
+                            <li>{`->`} Support and help end user</li>
                         </ul>
                     </div>
                 </div>

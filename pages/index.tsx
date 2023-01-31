@@ -29,24 +29,24 @@ function Home() {
               </figcaption>
             </div>
             
-            <div className="mt-14 p-12 grid grid-cols-3" style={{marginBottom:410}}>
+            <div className="mt-14 p-12 grid grid-cols-3" style={{marginBottom:420}}>
               <div className="mx-auto ">
                   <Link target="_blank" href="https://www.linkedin.com/in/adi-setiawan-5a550271/" title="linkedin">
-                      <FaLinkedin style={{ color: "grey", fontSize:50,}} />
+                      <FaLinkedin style={{ color: "grey", fontSize:40,}} />
                       <div className="hidden md:block">LINKEDIN</div>
                   </Link>
               </div>
               
               <div className="mx-auto ">
                   <Link target="_blank" href="https://github.com/setiawan91" title="github">
-                      <FaGithub style={{ color: "grey", fontSize:50,}} /> 
+                      <FaGithub style={{ color: "grey", fontSize:40,}} /> 
                       <div className="hidden md:block">GITHUB</div>
                   </Link>                        
               </div>
 
               <div className="mx-auto ">
                   <Link target="_blank" href="https://api.whatsapp.com/send?phone=6285770289748" title="github">
-                      <FaWhatsapp style={{ color: "grey", fontSize:50,}} /> 
+                      <FaWhatsapp style={{ color: "grey", fontSize:40,}} /> 
                       <div className="hidden md:block">WHATSAPP</div>
                   </Link>
               </div>
