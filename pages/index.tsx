@@ -51,12 +51,8 @@ function Home() {
                   </Link>
               </div>
             </div>
-            
           </figure>
-
         </main>
-
-        
       </div>
     </Layout>
   )

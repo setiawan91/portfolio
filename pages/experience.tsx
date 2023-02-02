@@ -127,7 +127,6 @@ function Experience() {
                 </figure>
             </main>
         </div>
-
     </Layout>
   );
 }

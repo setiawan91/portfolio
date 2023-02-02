@@ -9,7 +9,6 @@ export default function Footer() {
           rel="noopener noreferrer"
         >
           Developed by{' '}Adis @ 2023
-          {/* <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} /> */}
         </a>
       </footer>
   )

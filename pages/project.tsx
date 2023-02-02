@@ -1,7 +1,6 @@
 import Layout from '../components/Layout'
 import Link from 'next/link'
 import Image from 'next/image';
-
 import hstore from '../public/hstore-thumb.jpg';
 import penta from '../public/penta-thumb.jpg';
 import asta from '../public/asta-thumb.jpg';

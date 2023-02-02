@@ -67,31 +67,25 @@ const { theme, setTheme } = useTheme();
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 font-medium">
                 <li className="text-md">
-                  <Link href="/" className='text-slate-600 hover:text-slate-800 hover:dark:text-black'>
+                  <Link href="/" className='text-slate-600 dark:text-slate-500 hover:text-slate-800 hover:dark:text-black'>
                     Home
                   </Link>
                 </li>
                 <li className="text-md">
-                  <Link href="/experience" className='text-slate-600 hover:text-slate-800 hover:dark:text-black'>
+                  <Link href="/experience" className='text-slate-600 dark:text-slate-500 hover:text-slate-800 hover:dark:text-black'>
                     Experience
                   </Link>
                 </li>
                 <li className="text-md">
-                  <Link href="/project" className='text-slate-600 hover:text-slate-800 hover:dark:text-black'>
+                  <Link href="/project" className='text-slate-600 dark:text-slate-500 hover:text-slate-800 hover:dark:text-black'>
                     Project
                   </Link>
                 </li>
-                {/* <li className="text-md">
-                  <Link href="/contact" className='text-slate-600 hover:text-slate-800 hover:dark:text-black'>
-                    Contact
-                  </Link>
-                </li> */}
               </ul>
             </div>
           </div>
         </div>
       </nav>
     </>
-    
   )
 }
