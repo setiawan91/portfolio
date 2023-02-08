@@ -13,6 +13,24 @@ import kebunku from '../public/kebunku-thumb.jpg';
 function Project() {
   const posts = [
     {
+        title: "WIRA",
+        img: '/wira.jpg',
+        content: "WIRA adalah sebuah platform donasi yang diperuntukan khusus tentara militer.",
+        url: "https://wira.tanky.my/",
+    },
+    {
+      title: "HUB-KRYPTOPOS",
+      img: '/kpos.jpg',
+      content: "HUB Kyrptopos adalah Content Management System (CMS) yang digunakan oleh user merchant dan internal kryptopos .",
+      url: "https://hub.kryptopos.com/",
+    },
+    {
+      title: "SPURR",
+      img: '/spurr.jpg',
+      content: "SPURR adalah sebuah loyalty platform .",
+      url: "https://app-v3.gospurr.com/",
+      },
+      {
         title: "HSTORE",
         img: '/hstore-thumb.jpg',
         content: "H-Store adalah platform konten gratis atau berlangganan untuk pengguna operator seluler HUTCH atau Three(3).",
@@ -76,7 +94,7 @@ function Project() {
                   <Link href={items.url} target="_blank">
                     <div className="w-full rounded-lg shadow-md lg:max-w-sm mb-4" key={key}>
                         <Image
-                            className="object-cover w-full h-96"
+                            className="object-contain w-full h-96"
                             src={items.img} width={300} height={300}
                             alt={items.img}
                         />
