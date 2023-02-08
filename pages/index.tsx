@@ -13,7 +13,7 @@ function Home() {
             <div className="pt-2 space-y-4">
               <blockquote>
                 <p className="ml-4 text-lg font-small">
-                  "Welcome to my portfolio site. I am going to show you some projects I have done.
+                  "Welcome to my portfolio site. I am going to show you some projects I've been involved with.
                 </p>
                 <p className="ml-4 text-lg font-small">
                 Feel happy if I can help and grow together."
