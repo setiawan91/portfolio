@@ -27,7 +27,7 @@ function Project() {
     {
       title: "HUB-KRYPTOPOS",
       img: '/kpos.jpg',
-      content: "HUB Kyrptopos adalah Content Management System (CMS) yang digunakan oleh user merchant dan internal kryptopos",
+      content: "HUB Kyrptopos adalah Content Management System (CMS) yang digunakan oleh user merchant dan internal",
       url: "https://hub.kryptopos.com/",
     },
     {
