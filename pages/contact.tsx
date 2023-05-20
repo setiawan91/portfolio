@@ -10,7 +10,7 @@ function Contact() {
                     <figure className="lg:w-1/2 bg-slate-100 p-8 dark:bg-slate-800 mt-2 mb-2 shadow">
                         <div className="mx-auto">
                             <h1 className='text-lg'>CONTACT</h1>
-                            <p>&nbsp;</p>
+                            <div>&nbsp;</div>
                         </div>
                         
                         <div className=" grid lg:grid-cols-3">

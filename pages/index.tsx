@@ -9,15 +9,15 @@ function Home() {
       <div className="flex min-h-screen flex-col items-center justify-center ">
         <main className="flex w-full flex-1 flex-col items-center text-center">
           <figure className="lg:w-1/2 bg-slate-100 p-8 dark:bg-slate-800 mt-2 mb-2 shadow">
-            <Image className="w-24 h-24 rounded-full mx-auto" src="/adi.jpg" alt="" width="384" height="512"/>
+            <Image className="mt-8 w-24 h-24 rounded-full mx-auto" src="/adi.jpg" alt="image" width="384" height="512"/>
             <div className="pt-2 space-y-4">
               <blockquote>
-                <p className="ml-4 text-lg font-small">
+                <div className="ml-4 text-lg font-small">
                   "Welcome to my portfolio site. I am going to show you some projects I've been involved with.
-                </p>
-                <p className="ml-4 text-lg font-small">
+                </div>
+                <div className="ml-4 text-lg font-small">
                 Feel happy if I can help and grow together."
-                </p>
+                </div>
               </blockquote>
               <figcaption className="font-medium ">
                 <div className="text-sky-500 dark:text-sky-400">

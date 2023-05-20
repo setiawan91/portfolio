@@ -12,12 +12,12 @@ import kebunku from '../public/kebunku-thumb.jpg';
 
 function Project() {
   const posts = [
-    {
-        title: "E-PROC",
-        img: '/eproc.jpg',
-        content: "E-PROC adalah sebuah sistem procurement berbasis web",
-        url: "http://dev-eproc-aca.ap-southeast-1.elasticbeanstalk.com/",
-    },
+    // {
+    //     title: "E-PROC",
+    //     img: '/eproc.jpg',
+    //     content: "E-PROC adalah sebuah sistem procurement berbasis web",
+    //     url: "http://dev-eproc-aca.ap-southeast-1.elasticbeanstalk.com/",
+    // },
     {
       title: "WIRA",
       img: '/wira.jpg',
@@ -93,7 +93,7 @@ function Project() {
           <figure className="lg:w-1/2 bg-slate-100 p-8 dark:bg-slate-800 mt-2 mb-2 shadow">
           <div className="mx-auto">
               <h1 className='text-lg'>PROJECT</h1>
-              <p>&nbsp;</p>
+              <div>&nbsp;</div>
           </div>
           <div className="grid gap-6 lg:grid-cols-3 sm:grid-cols-2 ">
                 {posts.map((items, key) => (
@@ -108,9 +108,9 @@ function Project() {
                             <h4 className="text-xl font-semibold text-slate-600">
                                 {items.title}
                             </h4>
-                            <p className="mb-2 leading-normal text-left">
+                            <div className="mb-2 leading-normal text-left">
                             {items.content}
-                            </p>
+                            </div>
                             <button className="px-4 py-2 text-sm text-slate-100 bg-slate-500 rounded shadow">
                                 VISIT
                             </button>
