@@ -10,17 +10,16 @@ const [navbar, setNavbar] = useState(false);
 const { theme, setTheme } = useTheme();
 
   return (
-    <>   
-        <nav className="lg:w-1/2 mx-auto bg-slate-100 dark:bg-slate-800 shadow">
+      <nav className="lg:w-1/2 mx-auto bg-slate-100 dark:bg-slate-800 shadow">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
             
             <button
-          onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          className="p-2 rounded-full py-2 text-black bg-none dark:bg-white dark:text-black">
-          {theme === 'dark' ? <FiMoon /> : <FiSun />}
-        </button>
+              onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+              className="p-2 rounded-full py-2 text-black bg-none dark:bg-white dark:text-black">
+              {theme === 'dark' ? <FiMoon /> : <FiSun />}
+            </button>
               <div className="md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -86,6 +85,5 @@ const { theme, setTheme } = useTheme();
           </div>
         </div>
       </nav>
-    </>
   )
 }

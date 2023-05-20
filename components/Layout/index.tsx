@@ -20,7 +20,7 @@ const { children, pageTitle } = props;
         <meta name="description" content="portfolio by adis"/>
         <meta name="author" content="adis"/>
 
-        <meta property="og:title" content="Let's go, make your apps..!" />
+        <meta property="og:title" content="Let's go, build your apps..!" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://adisetiawan.vercel.app/" />
         <meta property="og:image" content="https://adisetiawan.vercel.app/favicon.ico" />
