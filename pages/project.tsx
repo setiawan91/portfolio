@@ -18,11 +18,23 @@ function Project() {
     //     content: "E-PROC adalah sebuah sistem procurement berbasis web",
     //     url: "http://dev-eproc-aca.ap-southeast-1.elasticbeanstalk.com/",
     // },
+    // {
+    //   title: "WIRA",
+    //   img: '/wira.jpg',
+    //   content: "WIRA adalah sebuah platform donasi yang diperuntukan khusus tentara militer",
+    //   url: "https://wira.tanky.my/",
+    // },
     {
-      title: "WIRA",
-      img: '/wira.jpg',
-      content: "WIRA adalah sebuah platform donasi yang diperuntukan khusus tentara militer",
-      url: "https://wira.tanky.my/",
+      title: "SUMMARECON HOME CMS",
+      img: '/home-cms.jpg',
+      content: "Summarecon Home CMS digunakan user untuk manajemen konten Summarecon Home Apps",
+      url: "https://satusummarecon.com/home_web_trial/auth/login",
+    },
+    {
+      title: "SUMMARECON MALL CMS",
+      img: '/mall-cms.jpg',
+      content: "Summarecon Mall CMS digunakan user untuk manajemen konten Summarecon Mall Apps",
+      url: "https://satusummarecon.com/loyaltyprogramtrial/login",
     },
     {
       title: "HUB-KRYPTOPOS",
