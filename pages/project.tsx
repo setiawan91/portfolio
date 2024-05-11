@@ -28,13 +28,19 @@ function Project() {
       title: "SUMMARECON HOME CMS",
       img: '/home-cms.jpg',
       content: "Summarecon Home CMS digunakan user untuk manajemen konten Summarecon Home Apps",
-      url: "https://satusummarecon.com/home_web_trial/auth/login",
+      url: "https://dev.satusummarecon.co.id/cms-home/auth/login",
     },
     {
       title: "SUMMARECON MALL CMS",
       img: '/mall-cms.jpg',
       content: "Summarecon Mall CMS digunakan user untuk manajemen konten Summarecon Mall Apps",
-      url: "https://satusummarecon.com/loyaltyprogramtrial/login",
+      url: "https://dev.satusummarecon.co.id/cms-mall/login",
+    },
+    {
+      title: "DATA WAREHOUSE",
+      img: '/dwh-cms.jpg',
+      content: "Data Warehouse CMS digunakan oleh user internal untuk konfigurasi, scoring dan profiling customer Summarecon Mall",
+      url: "https://stg.satusummarecon.co.id/cms-dwh/auth/login",
     },
     {
       title: "HUB-KRYPTOPOS",
